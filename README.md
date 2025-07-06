@@ -125,4 +125,7 @@ DATABASE_URL=sqlite:///./test.db
 
 ---
 
-Please do ⭐ this repo, if you liked my work.
+##  Please do ⭐ this repo, if you liked my work.
+##  Made with ❤️ using FastAPI and Python
+
+## Feel free to fork, contribute, or reach out with suggestions!
