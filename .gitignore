@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# FastAPI logs
+*.log
+
+# SQLite database
+*.sqlite3
+*.db
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Static/media files (if generated dynamically)
+static/uploads/
+media/
+
+# Pydantic cache
+__pydantic_cache__/
+
+# Migrations (if using Alembic and want to ignore history)
+alembic/versions/
+
+# pytest / coverage
+.cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Build
+build/
+dist/
+*.egg-info/

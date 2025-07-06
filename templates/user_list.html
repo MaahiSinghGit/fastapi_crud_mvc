@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User List</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>User List</h2>
+    <form action="/add" method="post">
+        <input name="name" placeholder="Name" required>
+        <input name="email" placeholder="Email" required>
+        <button type="submit">Add User</button>
+    </form>
+    <hr>
+    <ul>
+       {% for user in users %}
+    <li>
+        {{ user.name }} ({{ user.email }})
+        <!-- Delete Form -->
+        <form action="/delete/{{ user.id }}" method="post" style="display:inline;">
+            <button type="submit">Delete</button>
+        </form>
+        <!-- Edit Form -->
+        <form action="/update/{{ user.id }}" method="post" style="display:inline;">
+            <input name="name" placeholder="New Name" required>
+            <input name="email" placeholder="New Email" required>
+            <button type="submit">Update</button>
+        </form>
+    </li>
+{% endfor %}
+    </ul>
+</body>
+</html>
