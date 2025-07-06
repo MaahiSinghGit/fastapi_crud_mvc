@@ -125,6 +125,4 @@ DATABASE_URL=sqlite:///./test.db
 
 ---
 
-## 📝 License
-
-This project is open source and free to use under the MIT License.
+Please do ⭐ this repo, if you liked my work.
